@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DefaultController!{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="jumbotron bg-dark text-warning container-fluid">
+            <h1 class="display-3">{{controller_name}}</h1>
+            <p class="lead text-light">Welcome to the default template for building NARI apps!</p>
+            <hr class="my-2">
+            <div class="col-12 mb-3">
+                <div class="btn-group" role="group" aria-label="">
+                    <button type="button" class="btn btn-primary">Button 1</button>
+                    <button type="button" class="btn btn-secondary">Sample 2</button>
+                    <button type="button" class="btn btn-danger">Sample Button 3</button>
+                    <button type="button" class="btn btn-success">Sample 4</button>
+                    <button type="button" class="btn btn-info">Button 5</button>
+                    <button type="button" class="btn btn-warning">Sample Button 6</button>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <a class="btn btn-outline-light btn-lg" href="Jumbo action link" role="button">Sample Action Button</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
